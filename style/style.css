@@ -1,0 +1,58 @@
+body{
+    background-color: #ed11b6;
+}
+
+h1 {
+    font-stretch: expanded;
+    color: blue;
+    font-style: oblique
+
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+    font-size: 20px;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium';
+}
+/*start debug*/
+.bg-blue{
+    background-color: rgb(222, 233, 73);
+}
+.bg-red{
+    background-color: #eeeeee;
+}
+.bg-green{
+    background-color: aqua;
+}
+
+/*start Container*/
+.container{
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+
+h1 {
+    .container{
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+    }
+}
+.container-full{
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+
+ul.media li{
+    display: inline;
+}
+
+.logo {
+    text-align: center;
+}
